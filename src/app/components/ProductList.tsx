@@ -121,13 +121,20 @@ const ProductList: React.FC<ProductListProps> = ({}) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* Display sorted products */}
         {products.map((product) => (
+
           <Link
-            href={`/pages/products/${product.id}`}
+            href={`/pages/products/${product.id}`} 
             key={product.id}
             as={`/pages/products/${product.id}`}
           >
             <div key={product.id} className="bg-white p-4 shadow-md">
-              <h2 className="text-xl font-semibold mb-2">{product.title}</h2>
+            {/* <Image
+        src={product.imageUrl}
+        width={500}
+        height={500}
+        alt="Picture of the author"
+      /> */}
+              <h2 className="text-xl font-semibold mb-2 text-black">{product.title}</h2>
               <p className="text-gray-600 mb-4">{product.description}</p>
               <p className="text-green-600 text-lg font-semibold">
                 Price: ${product.price}
