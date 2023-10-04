@@ -10,6 +10,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+![Screenshot 2023-10-04 at 1 20 03 PM](https://github.com/Hemantkumawat/next-showcase/assets/29446936/748b69f7-3003-4be3-b689-bf1b1bfc1458)
+
 For reference here video attached:-
 [![Video Preview](https://github.com/Hemantkumawat/next-showcase/assets/29446936/2a191589-a6a3-4088-8484-ef40aee0c9d8)]([https://drive.google.com/file/d/your-video-id/view](https://drive.google.com/file/d/1obc83DsTJEBvYBpBPptMe_kCapx9znLA/view))
 
